@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level 2 </title>
 </head>
+<style>
+    body{
+        box-sizing: border-box;
+    }
+    .first{
+         background-color: red;
+         height: 200px;
+         width: 200px;
+         text-align: center;
+         padding: 2px;
+         margin-left: 40px;
+         border: 2px solid black;
+         
+    }
+    search-section ul li{
+        text-decoration: none;
+    }
+</style>
 <body>
     <!-- Box model -->
-     <div></div>
+     <div class="first">first</div>
+     <div style="display: flex; justify-content: space-around;">
+     <div class="sarch-section">
+        <ul>
+            <li>Amazon.in</li>
+            <li>Account</li>
+            <li>My Cart</li>
+            <li>Contact Us</li>
+        </ul>
+     </div>
+     <div>
+     <input type="text" placeholder="search amazon.in">
+     <button >Sarch</button>
+    </div>
+    </div>
 </body>
 </html>
